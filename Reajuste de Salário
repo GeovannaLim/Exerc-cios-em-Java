@@ -1,0 +1,19 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exer9 {
+	public static void main(String[]args) {
+		double resul,re,sl;
+	Scanner geo= new Scanner(System.in);
+	System.out.print("Digite o seu salário mensal:");
+	sl = geo.nextInt();
+	
+	System.out.print("Digite o reajuste:");
+	re = geo.nextInt();
+	
+	resul=(sl+(sl*(re/100)));
+	System.out.print("O seu novo salário é:"+resul);
+	geo.close();
+	}
+}
