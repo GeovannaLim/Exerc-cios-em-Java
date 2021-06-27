@@ -1,0 +1,24 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exer7 {
+public static void main(String[]args) {
+	Scanner geo= new Scanner(System.in);
+	System.out.print("Digite quantos anos você tem:");
+	int anos = geo.nextInt();
+	System.out.print("Digite quantos meses após o seu último aniversário:");
+	int meses = geo.nextInt();
+	System.out.print("Digite quantos dias após seu último mêsversario:");
+	int dias = geo.nextInt();
+	
+	int anD=anos*365;
+	int msD=meses*30;
+	int rs=anD+ msD+ dias;
+	
+	
+	System.out.print("Sua idade em dias é:"+rs);
+	geo.close();
+	
+}
+}
