@@ -1,0 +1,28 @@
+package exercicios;
+import java.util.Scanner;
+public class Exer8 {
+	public static void main(String[]args) {
+		float br,vl,nl,el;
+	Scanner geo= new Scanner(System.in);
+	System.out.print("Digite o número de eleitores:");
+	el = geo.nextInt();
+	System.out.print("Digite o número de votos brancos :");
+	 br = geo.nextInt();
+	System.out.print("Digite o número de votos validos:");
+	 vl = geo.nextInt();
+	System.out.print("Digite o número de votos nulos:");
+	 nl = geo.nextInt();
+
+	float rsbr=br/el*100;
+	float rsvl=vl/el*100;
+	float rsnl=nl/el*100;
+	
+	
+	
+	System.out.print("O percentual de votos brancos é:"+rsbr);
+	System.out.print("O percentual de votos validos é:"+rsvl);
+	System.out.print("O percentual de votos nulos é:"+rsnl);
+	
+	 geo.close();
+	}
+}
