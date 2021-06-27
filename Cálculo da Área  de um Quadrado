@@ -1,0 +1,18 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio11 {
+	public static void main(String[]args) {
+		  Scanner geo=new Scanner(System.in);
+		  int bs,ar;
+		  System.out.print("Digite o valor da base ou da altura:");
+		  bs=geo.nextInt();
+		  ar=bs*2;
+		  System.out.print("A área do quadrado é:"+ar);
+			
+		  
+		  
+			}
+
+}
